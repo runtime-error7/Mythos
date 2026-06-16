@@ -1,0 +1,38 @@
+# Mythos Enterprise - Git Ignore Configuration
+
+# Local Memory & Engine States (DO NOT COMMIT)
+.mythos_history.json
+.mythos_compiled
+.core_config/
+
+# Python Virtual Machine & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
